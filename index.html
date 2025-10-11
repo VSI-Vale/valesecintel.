@@ -184,50 +184,53 @@
   </section>
 
 
+<
+<!-- Start Contact Section -->
 <section id="contact">
   <h3>Get In Touch</h3>
-  <p>Tell us what you’re building or where it hurts. We’ll respond within one business day.</p>
+  <p>Tell us what you’re building. We’ll respond within one business day.</p>
 
-  <div class="grid" style="margin-top:22px; display:grid; grid-template-columns:repeat(auto-fit, minmax(350px, 1fr)); gap:30px;">
-
-    <!-- Left Card -->
-    <div class="card">
+  <div class="grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: 30px; margin-top: 22px;">
+    
+    <!-- Contact Info Card -->
+    <div class="card" style="padding: 20px;">
       <h4>Direct</h4>
       <p><strong>Email:</strong> 
-        <a href="mailto:valeintelligence@gmail.com" style="color:#ffdc85;">
-          valeintelligence@gmail.com
-        </a>
+        <a href="mailto:valeintelligence@gmail.com" style="color:#ffdc85;">valeintelligence@gmail.com</a>
       </p>
       <p><strong>Phone:</strong> 
-        <a href="tel:+12628941578" style="color:#ffdc85;">
-          (262) 894-1578
-        </a>
+        <a href="tel:+12628941578" style="color:#ffdc85;">(262) 894-1578</a>
       </p>
       <p><strong>Address:</strong> 
-        <a href="https://maps.google.com/?q=790+North+Milwaukee+St,+Milwaukee,+WI" target="_blank" rel="noopener" style="color:#ffdc85;">
-          790 North Milwaukee St, Milwaukee, Wisconsin
+        <a href="https://maps.google.com/?q=790%20North%20Milwaukee%20St%2C%20Milwaukee%2C%20WI" style="color:#ffdc85;">
+          790 North Milwaukee St, Milwaukee, WI
         </a>
       </p>
     </div>
 
-    <!-- Right Card -->
-    <div class="card">
+    <!-- Message Box -->
+    <div class="card" style="padding: 20px;">
       <h4>Message Us</h4>
       <form action="https://formspree.io/f/YOUR_ID" method="POST">
-        <input class="input" type="text" name="name" placeholder="Your name" required>
-        <input class="input" type="email" name="email" placeholder="Email" required>
-        <textarea class="input" name="message" rows="5" placeholder="Briefly describe your goals or challenges" required></textarea>
-        <button class="btn" type="submit">Send</button>
+        <div style="display:flex; gap:10px; margin-bottom:10px;">
+          <input type="text" name="name" placeholder="Your name" 
+                 style="flex:1; padding:10px; border:1px solid #333; border-radius:4px;" required>
+          <input type="email" name="email" placeholder="Email" 
+                 style="flex:1; padding:10px; border:1px solid #333; border-radius:4px;" required>
+        </div>
+        <textarea name="message" rows="5" placeholder="Briefly describe your goals or challenges"
+                  style="width:100%; padding:10px; border:1px solid #333; border-radius:4px; resize:vertical;" required></textarea>
+        <button type="submit" class="btn" 
+                style="margin-top:10px; background:#ffdc85; border:none; padding:10px 20px; border-radius:4px; cursor:pointer;">
+          Send
+        </button>
       </form>
-      <p class="muted" style="margin-top:10px; color:#9CA3AF;">We value privacy. Your details are secure.</p>
+      <p style="margin-top:10px; color:#9CA3AF;">We value privacy. Your details are secure.</p>
     </div>
-
   </div>
 </section>
+<!-- End Contact Section -->
 
-    </p>
-  </div>
-</div>
 
 
 
